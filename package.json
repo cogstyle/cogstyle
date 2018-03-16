@@ -1,0 +1,21 @@
+{
+  "name": "cogstyle",
+  "repository": {
+    "url": "https:git@github.com:cogstyle/cogstyle.git"
+  },
+  "version": "0.0.1",
+  "description": "Maintainable CSS for component frameworks",
+  "main": "dist/index.js",
+  "scripts": {
+    "build":
+      "rollup src/index.js --output.format umd --name 'cogstyle' --output.file dist/index.js",
+    "clean": "rimraf dist"
+  },
+  "keywords": ["css", "css-in-js", "angular", "react", "emotion"],
+  "license": "MIT",
+  "devDependencies": {
+    "rimraf": "^2.6.2",
+    "rollup": "^0.57.0"
+  },
+  "files": ["dist"]
+}
