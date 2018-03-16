@@ -18,7 +18,7 @@ npm install --save cogstyle
 
 ### Usage
 
-Check our our example demos in [React](https://stackblitz.com/edit/cogstyle-react?file=cogs.js) and [Angular](https://stackblitz.com/edit/cogstyle-angular?file=app%2Fhello.component.ts). Your cogs can be defined in one library then used in either framework (yes I know React isn't a framework). In both examples you will see a cogs.js file. This file is your library and is identical and will work with both react and angular.
+Check our our example demos in [React](https://stackblitz.com/edit/cogstyle-react?file=cogs.js) and [Angular](https://stackblitz.com/edit/cogstyle-angular?file=app%2Fhello.component.ts). Your cogs can be defined in a cog library. That library can then be used in either framework (yes I know React isn't a framework). In both examples you will see a cogs.js file. This is your cog library. It will work with both react and angular.
 
 ## Commands
 
