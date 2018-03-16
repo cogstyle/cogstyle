@@ -131,7 +131,7 @@ export const cogstyle = ({ from }) => {
     return entries.reduce((a, entry) => {
       if (typeof entry[0] === "undefined" || entry[0] === "undefined") {
         throw new Error(
-          `ERROR undefined key detected. ${a}${entry[0]}:${entry[1]};`
+          `ERROR: undefined key detected. ${a}${entry[0]}:${entry[1]};`
         );
       }
       return `${a}${entry[0]}:${entry[1]};`;
@@ -144,7 +144,7 @@ export const cogstyle = ({ from }) => {
       const keys = Object.keys(value);
       const numKeys = keys.length;
       throw new Error(
-        `Path to string cog expected. You selected the cog object '${component}'. Chances are you meant to select one of its child keys instead (${keys.reduce(
+        `ERROR: Path to string cog expected. You selected the cog object '${component}'. Chances are you meant to select one of its child keys instead (${keys.reduce(
           (a, key, i) => {
             return a + component + "." + key + (i === numKeys - 1 ? "" : ", ");
           },
@@ -168,7 +168,7 @@ export const cogstyle = ({ from }) => {
       const value = get(from, component);
       if (!value)
         throw new Error(
-          `Invalid style path ${component}. Check the path and try again.`
+          `ERROR: Invalid style path ${component}. Check the path and try again.`
         );
       const { values = {}, keys = {} } = from;
       return typeof value === "function"
@@ -182,7 +182,7 @@ export const cogstyle = ({ from }) => {
       const value = get(from, "values." + component);
       if (!value)
         throw new Error(
-          `Invalid string path ${component}. Check the path and try again.`
+          `ERROR: Invalid string path ${component}. Check the path and try again.`
         );
       return value;
     },

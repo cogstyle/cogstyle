@@ -3,7 +3,7 @@
   "repository": {
     "url": "https:git@github.com:cogstyle/cogstyle.git"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Maintainable CSS for component frameworks",
   "main": "dist/index.js",
   "scripts": {
