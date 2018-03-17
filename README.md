@@ -20,6 +20,8 @@ npm install --save cogstyle
 
 Check our our example demos in
 
+<img src="https://d33wubrfki0l68.cloudfront.net/03d22011ac5ac305c1259f679cfea40c6b8906f8/6f83a/images/logo-reactjs.svg" alt="Drawing" style="width: 200px;"/>
+
 [![React](https://d33wubrfki0l68.cloudfront.net/03d22011ac5ac305c1259f679cfea40c6b8906f8/6f83a/images/logo-reactjs.svg)](https://codesandbox.io/s/ko24qq6mvv)
 
 [![Angular](https://d33wubrfki0l68.cloudfront.net/415d7aec237efd80399103a0a6ece6ff0c2a46f6/01c67/images/logo-angular.svg)](https://codesandbox.io/s/236lwk6v0j)
